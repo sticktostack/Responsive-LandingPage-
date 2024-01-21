@@ -184,23 +184,29 @@ i .float2{
     }
     .nav .part2 #menu{
         display: block;
-        font-size: 6vw;
+        font-size: 8vw;
     }
     .nav .part1{
         /* background-color: firebrick; */
         width: 100vw;
     }
     .nav .part1 h1{
-
         font-size: 7vw;
         font-weight: 700;
     }
     .nav{
-        border-bottom: 1px solid #888888ab;
+        background-color: #e6e6e62b;
+        border-bottom: 1px solid #595959f9;
         position: fixed;
     }
     .nav h1 {
         z-index: 99;
+    }
+    .nav .part1 h1::first-letter{
+        color: firebrick;
+    }
+    .nav .part2 i{
+        font-size: 8vw;
     }
     .nav .part2 {
         /* background-color: darkblue; */
@@ -219,34 +225,42 @@ i .float2{
         /* background-color: firebrick; */
     }
     .content h1{
-            color: #b1d8ff;
+            color: #000000;
             z-index: 99;
             font-weight: 700;
-            text-shadow: 0px 0px 20px #000;
+            /* text-shadow: 0px 0px 20px #000; */
+    }
+    .content h1::first-letter{
+        color: yellowgreen;
+    }
+    .content span{
+        color: forestgreen;
     }
     .content #one{
-        left: 10%;
+        top: 57%;
+        left: 15%;
     }
     .content h3{
         margin-bottom: 4vw;
         z-index: 99;
         font-weight: 700;
         font-size: 5vw;
-        color: #fff;
-        text-shadow: 0px 0px 20px #000;
+        color: #777;
+        /* text-shadow: 0px 0px 20px #000; */
     }
     .content i{
+        font-size: 8vw;
         border: solid 2px #000;
-        box-shadow: 0px 0px 20px #000000;
+        box-shadow: 0px 0px 20px #00000026;
     }
     .content #two{
-        left: 9%;
+        left: 14%;
         height: 30vh;
-        top: 73%;
+        top: 113%;
     }
     .content #three{
-        left: 20%;
-        top: 104%;
+        left: 25%;
+        top: 144%;
         height: 37vh;
     }
 }
